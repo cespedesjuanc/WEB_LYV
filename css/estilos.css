@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+html, body{
+    height: 80%;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background: rgba(51,51,51,0.9);
+    color: #fff;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 100;
+
+    
+}
+
+header h1{
+    position: center;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 60px;
+    margin: auto;
+    
+    
+    
+}
+
+img{
+ max-width: 100%;
+    
+}
+
+
+#servicios{
+    color: white;
+    text-align: center;
+    background-color: black;
+    width: 100p%;
+    height: 100px;
+    margin: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 25px;
+   
+}
+
+
+
+#cover{
+    background: url("../images/consola_dj1.jpg") center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    display: flex;
+    margin-bottom: 25px;
+    animation: movimiento 10s infinite linear alternate;
+    
+}
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top right;
+    }
+    
+}
+
+.contenedor{
+    width: 98%;
+    margin: auto;
+    
+    
+}
+
+.card-deck{
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 50px;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+    
+}
+
+
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
