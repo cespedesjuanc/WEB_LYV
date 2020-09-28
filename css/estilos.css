@@ -105,7 +105,7 @@ img{
 }
 
 
-
+/*
 #cover{
     background: url("../images/consola_dj1.jpg") center center no-repeat;
     background-size: cover;
@@ -117,6 +117,7 @@ img{
     animation: movimiento 10s infinite linear alternate;
     
 }
+*/
 
 @keyframes movimiento{
     from{
@@ -147,7 +148,7 @@ img{
 }
 
 
-}
+/* } */
 @keyframes fadein {
     from {
         opacity:0;
