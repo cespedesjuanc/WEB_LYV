@@ -127,13 +127,8 @@ img{
 }
 
 .contenedor{
-    width: 98%; 
-<<<<<<< HEAD
-    padding: 10px;
-=======
+    width: 98%;
     padding: 20px;
->>>>>>> 21318c88a76d1c1a1b97ec888563d70c1196bf66
-}
 
 .card-deck{
     margin-right: 20px;
